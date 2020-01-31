@@ -1,0 +1,314 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "# Import libraries\nimport numpy as np\nimport gym\n\n\nclass Discrete:\n\t\"\"\"Discrete reinforcement learning base class.\"\"\"\n\n\tdef __init__(self, env):\n\t\t# Add environment to the class and determine the size of the\n\t\tself.env = env\n\t\tself.n_actions = env.action_space.n\n\t\tself.n_states = env.observation_space.n\n\n\t\t# Initialize policy and action values\n\t\tself.P = ",
+			"file": "Discrete.py",
+			"file_size": 0,
+			"file_write_time": 132248863355093181,
+			"settings":
+			{
+				"buffer_size": 357,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"tasks",
+				"Tasks: New document"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"materi\tl",
+				"Material Theme: Advanced configuration"
+			],
+			[
+				"late",
+				"LaTeXTools: Reset user settings to default"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/alandegenhart/Documents/GitHub/ReinforcementLearning"
+	],
+	"file_history":
+	[
+		"/Users/alandegenhart/Google Drive/Postdoc/Projects/Energy Landscape/Manuscript/tex/EL_Manuscript.todo",
+		"/Users/alandegenhart/Google Drive/Postdoc/Projects/Energy Landscape/Manuscript/tex/sections/Figures.tex",
+		"/Users/alandegenhart/Google Drive/Postdoc/Projects/Energy Landscape/Manuscript/tex/sections/Introduction.tex",
+		"/Users/alandegenhart/Google Drive/Postdoc/Projects/Energy Landscape/Manuscript/tex/sections/methods/Methods_Electrophys.tex",
+		"/Users/alandegenhart/Google Drive/Postdoc/Projects/Energy Landscape/Manuscript/tex/sections/methods/Methods_BehavioralTasks.tex",
+		"/Users/alandegenhart/Google Drive/Postdoc/Projects/Energy Landscape/Manuscript/tex/sections/methods/Methods_GPFADecoder.tex",
+		"/Users/alandegenhart/Google Drive/Postdoc/Projects/Energy Landscape/Manuscript/tex/sections/methods/Methods_Mappings.tex",
+		"/Users/alandegenhart/Google Drive/Postdoc/Projects/Energy Landscape/Manuscript/tex/sections/methods/Methods.tex",
+		"/Users/alandegenhart/Google Drive/Postdoc/Projects/Energy Landscape/Manuscript/tex/sections/results/Results.tex",
+		"/Users/alandegenhart/Google Drive/Postdoc/Projects/Energy Landscape/Manuscript/tex/sections/Discussion.tex",
+		"/Users/alandegenhart/Google Drive/Postdoc/Projects/Energy Landscape/Manuscript/tex/EL_Manuscript.tex",
+		"/Users/alandegenhart/Google Drive/Postdoc/Projects/Energy Landscape/Manuscript/tex/sections/methods/Methods_Malleability.tex",
+		"/Users/alandegenhart/Google Drive/Postdoc/Projects/Energy Landscape/Manuscript/tex/sections/methods/Methods_NeuralFlow.tex",
+		"/Users/alandegenhart/Google Drive/Postdoc/Projects/Energy Landscape/Manuscript/tex/sections/Results_TwoTarget.tex",
+		"/Users/alandegenhart/Google Drive/Postdoc/Projects/Energy Landscape/Manuscript/tex/sections/Results_ConstrainedPath.tex",
+		"/Users/alandegenhart/Google Drive/Postdoc/Projects/Energy Landscape/Manuscript/tex/sections/Abstract.tex",
+		"/Users/alandegenhart/Google Drive/Postdoc/Projects/Energy Landscape/Manuscript/tex/sections/Results.tex",
+		"/Users/alandegenhart/Google Drive/Postdoc/Projects/Energy Landscape/Manuscript/tex/sections/Results_10D.tex",
+		"/Users/alandegenhart/Google Drive/Postdoc/Projects/Energy Landscape/Manuscript/tex/Nature formatting guidelines",
+		"/Users/alandegenhart/Library/Application Support/Sublime Text 3/Packages/LaTeX Word Count/LaTeXWordCount.sublime-settings",
+		"/Users/alandegenhart/Library/Application Support/Sublime Text 3/Packages/PlainTasks/messages/Tutorial.todo",
+		"/Users/alandegenhart/Google Drive/Postdoc/Projects/Energy Landscape/Manuscript/tex/To-do",
+		"/Users/alandegenhart/Documents/GitHub/energyLandscape/EL_ExperimentScript_Default.m",
+		"/Users/alandegenhart/Google Drive/Postdoc/Projects/Energy Landscape/Manuscript/tex/el_manuscript.sublime-project",
+		"/Users/alandegenhart/Google Drive/Postdoc/Projects/Energy Landscape/Manuscript/tex/sections/References.tex",
+		"/Users/alandegenhart/Google Drive/Postdoc/Projects/Energy Landscape/Manuscript/tex/sections/Methods.tex",
+		"/Users/alandegenhart/Google Drive/Postdoc/Projects/Energy Landscape/Manuscript/tex/sections/Acknowledgements.tex",
+		"/Users/alandegenhart/Google Drive/Postdoc/Projects/Energy Landscape/Manuscript/tex/NeilsenManuscript.tex",
+		"/Users/alandegenhart/Google Drive/Postdoc/Projects/Energy Landscape/Manuscript/Cosyne review comments",
+		"/Users/alandegenhart/Google Drive/Postdoc/Projects/Neilsen/submission materials - AIP/AIP Submission Checklist",
+		"/Users/alandegenhart/Documents/GitHub/pythonExamples/leetcode_solutions.py",
+		"/Users/alandegenhart/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/alandegenhart/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Discrete.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 357,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								207,
+								207
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.latextools":
+	{
+		"height": 58.0
+	},
+	"pinned_build_system": "",
+	"project": "rl.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 309.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

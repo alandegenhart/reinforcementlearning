@@ -1,0 +1,7 @@
+Reinforcement learning toolbox to-do:
+  ☐ Add analysis package
+  ☐ Implement Q-learning
+  ☐ Implement expected sarsa
+  ☐ Implement Double-Q learning
+  ☐ Add saving of agents
+  ☐ Epsilon-scheduling

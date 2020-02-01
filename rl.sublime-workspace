@@ -3,18 +3,44 @@
 	{
 		"selected_items":
 		[
+			[
+				"epi",
+				"episode_step()\tfunction ⟠"
+			],
+			[
+				"rewar",
+				"reward_rate\tint ⟠"
+			],
+			[
+				"updat",
+				"update_policy()\tfunction ⟠"
+			],
+			[
+				"update",
+				"update_action_value()\tfunction ⟠"
+			],
+			[
+				"episode",
+				"episode_reward\tlist | ndarray ⟠"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"contents": "# Import libraries\nimport numpy as np\nimport gym\n\n\nclass Discrete:\n\t\"\"\"Discrete reinforcement learning base class.\"\"\"\n\n\tdef __init__(self, env):\n\t\t# Add environment to the class and determine the size of the\n\t\tself.env = env\n\t\tself.n_actions = env.action_space.n\n\t\tself.n_states = env.observation_space.n\n\n\t\t# Initialize policy and action values\n\t\tself.P = ",
-			"file": "Discrete.py",
-			"file_size": 0,
-			"file_write_time": 132248863355093181,
+			"file": "discrete.py",
 			"settings":
 			{
-				"buffer_size": 357,
+				"buffer_size": 7249,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "rl.todo",
+			"settings":
+			{
+				"buffer_size": 346,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -80,6 +106,10 @@
 		"selected_items":
 		[
 			[
+				"tasks:",
+				"Tasks: New document"
+			],
+			[
 				"pack",
 				"Package Control: Install Package"
 			],
@@ -124,6 +154,8 @@
 	],
 	"file_history":
 	[
+		"/Users/alandegenhart/Documents/GitHub/ReinforcementLearning/discrete.py",
+		"/Users/alandegenhart/Library/Application Support/Sublime Text 3/Packages/PlainTasks/messages/Tutorial.todo",
 		"/Users/alandegenhart/Google Drive/Postdoc/Projects/Energy Landscape/Manuscript/tex/EL_Manuscript.todo",
 		"/Users/alandegenhart/Google Drive/Postdoc/Projects/Energy Landscape/Manuscript/tex/sections/Figures.tex",
 		"/Users/alandegenhart/Google Drive/Postdoc/Projects/Energy Landscape/Manuscript/tex/sections/Introduction.tex",
@@ -144,7 +176,6 @@
 		"/Users/alandegenhart/Google Drive/Postdoc/Projects/Energy Landscape/Manuscript/tex/sections/Results_10D.tex",
 		"/Users/alandegenhart/Google Drive/Postdoc/Projects/Energy Landscape/Manuscript/tex/Nature formatting guidelines",
 		"/Users/alandegenhart/Library/Application Support/Sublime Text 3/Packages/LaTeX Word Count/LaTeXWordCount.sublime-settings",
-		"/Users/alandegenhart/Library/Application Support/Sublime Text 3/Packages/PlainTasks/messages/Tutorial.todo",
 		"/Users/alandegenhart/Google Drive/Postdoc/Projects/Energy Landscape/Manuscript/tex/To-do",
 		"/Users/alandegenhart/Documents/GitHub/energyLandscape/EL_ExperimentScript_Default.m",
 		"/Users/alandegenhart/Google Drive/Postdoc/Projects/Energy Landscape/Manuscript/tex/el_manuscript.sublime-project",
@@ -196,30 +227,66 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Discrete.py",
+					"file": "discrete.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 357,
+						"buffer_size": 7249,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								207,
-								207
+								1530,
+								1530
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
+							"rulers":
+							[
+								80
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 391.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "rl.todo",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 346,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								346,
+								346
+							]
+						],
+						"settings":
+						{
+							"plain_tasks_remain_time_phantoms":
+							[
+							],
+							"syntax": "Packages/PlainTasks/PlainTasks.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -231,7 +298,7 @@
 	},
 	"input":
 	{
-		"height": 33.0
+		"height": 35.0
 	},
 	"layout":
 	{

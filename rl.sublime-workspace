@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"n",
+				"n_rows\tint ⟠"
+			],
+			[
+				"de",
+				"define_grid\tfunction ⟠"
+			],
+			[
 				"epi",
 				"episode_step()\tfunction ⟠"
 			],
@@ -28,19 +36,29 @@
 	"buffers":
 	[
 		{
-			"file": "discrete.py",
+			"file": "rl/env/__init__.py",
 			"settings":
 			{
-				"buffer_size": 7249,
+				"buffer_size": 216,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "rl.sublime-project",
+			"file": "rl/env/gridworld.py",
 			"settings":
 			{
-				"buffer_size": 45,
+				"buffer_size": 3803,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "rl/__init__.py",
+			"settings":
+			{
+				"buffer_size": 108,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -158,7 +176,8 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/alandegenhart/Documents/GitHub/ReinforcementLearning"
+		"/Users/alandegenhart/Documents/GitHub/ReinforcementLearning",
+		"/Users/alandegenhart/Documents/GitHub/ReinforcementLearning/rl"
 	],
 	"file_history":
 	[
@@ -230,62 +249,85 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "discrete.py",
+					"file": "rl/env/__init__.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7249,
+						"buffer_size": 216,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1273,
-								1273
+								216,
+								216
 							]
 						],
 						"settings":
 						{
-							"rulers":
-							[
-								80
-							],
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "rl/env/gridworld.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3803,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1579,
+								1579
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 357.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "rl.sublime-project",
-					"semi_transient": true,
+					"buffer": 2,
+					"file": "rl/__init__.py",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 45,
+						"buffer_size": 108,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								108,
+								108
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/zzz A File Icon zzz/aliases/JSON (Sublime).sublime-syntax"
+							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -295,7 +337,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "rl.todo",
 					"semi_transient": false,
 					"settings":
@@ -322,7 +364,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -385,12 +427,16 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"~/Documents/GitHub/EnergyLandscapeManuscript/el_manuscript.sublime-project"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{

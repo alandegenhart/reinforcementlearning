@@ -13,17 +13,14 @@ Created on Sun Feb  9 12:53:25 2020
 @author: alandegenhart
 """
 
-#%% Setup
-
+# Setup
 import numpy as np
 import rl
 
-#%% Define Gridworld object
-
+# Define Gridworld object
 G = rl.env.GridWorld()
 G.reset()
 
-#%% Test out the environment
-
+# Test out the environment
 s, r, d, info = G.step(3)
 print('s: {}, r: {}, d: {}, x: {}, y: {}'.format(s, r, d, G.loc[0], G.loc[1]))
